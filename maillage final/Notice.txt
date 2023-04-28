@@ -1,0 +1,14 @@
+Pour ouvrir les fichiers, ouvrir le logiciel GMSH puis aller dans Fichiers>Ouvrir.
+
+
+Le fichier face_chauffe.geo contient les données d'un cercle représentant la face de chauffe du cylindre.
+
+Pour créer un maillage automatique, cliquer sur Modules>Mesh>2D puis l'enregistrer grâce à Fichiers>Save mesh.
+
+Le fichier face_chauffe.msh ainsi créé peut être lu comme un fichier texte contenant les paramètres du cercle (coordonnées du centre, rayon)
+et les données des points et des arrêtes du maillage. Ce fichier peut être ouvert dans un logiciel de calcul adapté comme Python ou MatLab
+afin de procéder aux calculs nécessaires.
+
+
+Les fichiers cylindre_paroi.geo et cylindre_paroi.msh fonctionnent de même et correspondent au cylindre entier.
+Les données des points du maillage de la paroi peuvent être extraites et traitées de même.
